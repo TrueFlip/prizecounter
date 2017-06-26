@@ -13,7 +13,7 @@ def getRandomSeed(seed):
         valid = False
         while (not valid):
             nhex = seed[end_size-block_size*j:end_size-block_size*(j-1)]
-            nint = divmod(int(nhex,16),49)[1]
+            nint = divmod(int(nhex,16),50)[1]
             print(out)
             print(nint)
             if nint in set(out):
@@ -36,7 +36,7 @@ def getRandomSeed(seed):
     while(not valid):
         valid == False
         nhex = seed[end_size - block_size * j:end_size - block_size * (j - 1)]
-        nint = divmod(int(nhex,16), 26)[1]
+        nint = divmod(int(nhex,16), 27)[1]
         if nint == 0:
             valid = False
             j = j + 1
