@@ -1,0 +1,19 @@
+{
+"ticketPrice":0.001,
+"orders":3,
+"validCombos":[
+{"label":"JT",   "multiplier":0,   "ratio":1.0,"W":5,"R":1,"order":3},
+{"label":"J3",   "multiplier":0,   "ratio":0.3,"W":5,"R":0,"order":2},
+{"label":"J2",   "multiplier":0,   "ratio":0.2,"W":4,"R":1,"order":1},
+{"label":"M1000","multiplier":1000,"ratio":0,  "W":4,"R":0,"order":0},
+{"label":"M500", "multiplier":500, "ratio":0,  "W":3,"R":1,"order":0},
+{"label":"M50",  "multiplier":50,  "ratio":0,  "W":2,"R":1,"order":0},
+{"label":"M25",  "multiplier":25,  "ratio":0,  "W":3,"R":0,"order":0},
+{"label":"M5",   "multiplier":5,   "ratio":0,  "W":1,"R":1,"order":0},
+{"label":"M3",   "multiplier":3,   "ratio":0,  "W":0,"R":1,"order":0},
+{"label":"M1",   "multiplier":1,   "ratio":0,  "W":2,"R":0,"order":0}
+],
+"blockSize":4,
+"Rsize":1,
+"Wsize":5
+}
