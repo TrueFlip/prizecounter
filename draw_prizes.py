@@ -76,10 +76,7 @@ def generateWinningSequence(seed):
 		hexRep = seed[size - block_size*i:size - block_size*(i-1)]
 		intRep = divmod(int(hexRep,16),26)[1]
 		if(intRep == 0): intRep = 26
-		if(intRep in set(output)):
-			success = False
-			i = i + 1
-		if(intRep not in set(output)):
+		else:
 			output.append(intRep)
 			success = True
 			i = i + 1
