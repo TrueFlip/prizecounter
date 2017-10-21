@@ -1,19 +1,18 @@
 {
-"ticketPrice":0.001,
+"ticketPrice":0.0001,
 "orders":3,
 "validCombos":[
-{"label":"JT",   "multiplier":0,   "ratio":1.0,"W":5,"R":1,"order":3},
-{"label":"J3",   "multiplier":0,   "ratio":0.3,"W":5,"R":0,"order":2},
-{"label":"J2",   "multiplier":0,   "ratio":0.2,"W":4,"R":1,"order":1},
-{"label":"M1000","multiplier":1000,"ratio":0,  "W":4,"R":0,"order":0},
-{"label":"M500", "multiplier":500, "ratio":0,  "W":3,"R":1,"order":0},
-{"label":"M50",  "multiplier":50,  "ratio":0,  "W":2,"R":1,"order":0},
-{"label":"M25",  "multiplier":25,  "ratio":0,  "W":3,"R":0,"order":0},
-{"label":"M5",   "multiplier":5,   "ratio":0,  "W":1,"R":1,"order":0},
-{"label":"M3",   "multiplier":3,   "ratio":0,  "W":0,"R":1,"order":0},
-{"label":"M1",   "multiplier":1,   "ratio":0,  "W":2,"R":0,"order":0}
+{"label":"8p1", "ratio":1.0,  "E0":0.0000,   "E1":0.0000,  "E2":0.0000, "E3":0.0000, "W":8,"R":1,"order":1},
+{"label":"8p0", "ratio":0,    "E0":0.1000,   "E1":0.2000,  "E2":0.3000, "E3":-1    , "W":8,"R":0,"order":0},
+{"label":"7p1", "ratio":0,    "E0":0.0150,   "E1":0.0300,  "E2":0.0250, "E3":0.0300, "W":7,"R":1,"order":0},
+{"label":"7p0", "ratio":0,    "E0":0.0050,   "E1":0.0100,  "E2":0.0150, "E3":-1    , "W":7,"R":0,"order":0},
+{"label":"6p1", "ratio":0,    "E0":0.0030,   "E1":0.0060,  "E2":0.0050, "E3":0.0060, "W":6,"R":1,"order":0},
+{"label":"6p0", "ratio":0,    "E0":0.0010,   "E1":0.0020,  "E2":0.0030, "E3":-1    , "W":6,"R":0,"order":0},
+{"label":"5p1", "ratio":0,    "E0":0.0005,   "E1":0.0010,  "E2":0.0009, "E3":0.0011, "W":5,"R":1,"order":0},
+{"label":"5p0", "ratio":0,    "E0":0.0002,   "E1":0.0004,  "E2":0.0006, "E3":-1    , "W":5,"R":0,"order":0},
+{"label":"4p1", "ratio":0,    "E0":0.0001,   "E1":0.0001,  "E2":0.0001, "E3":0.0001, "W":4,"R":1,"order":0}
 ],
 "blockSize":4,
 "Rsize":1,
-"Wsize":5
+"Wsize":8
 }
